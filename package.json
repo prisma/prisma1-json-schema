@@ -1,6 +1,6 @@
 {
-  "name": "graphcool-json-schema",
-  "version": "0.0.0-semantic-release",
+  "name": "prisma-json-schema",
+  "version": "0.0.1",
   "main": "dist/definition.js",
   "typings": "dist/definition.d.ts",
   "files": [
@@ -19,6 +19,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/graphcool/graphcool-json-schema.git"
+    "url": "https://github.com/graphcool/prisma-json-schema.git"
   }
 }

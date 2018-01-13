@@ -1,7 +1,8 @@
-# graphcool-json-schema
-JSON schema of graphcool.yml files
+# prisma-json-schema
 
-[![CircleCI](https://circleci.com/gh/graphcool/graphcool-json-schema.svg?style=shield)](https://circleci.com/gh/graphcool/graphcool-json-schema) [![npm version](https://badge.fury.io/js/graphcool-json-schema.svg)](https://badge.fury.io/js/graphcool-json-schema)
+JSON schema of prisma.yml files
+
+[![CircleCI](https://circleci.com/gh/graphcool/prisma-json-schema.svg?style=shield)](https://circleci.com/gh/graphcool/prisma-json-schema) [![npm version](https://badge.fury.io/js/prisma-json-schema.svg)](https://badge.fury.io/js/prisma-json-schema)
 
 ## Usage
 
@@ -12,13 +13,13 @@ JSON schema of graphcool.yml files
 You can use the following URL for the current JSON schema file:
 
 ```
-https://raw.githubusercontent.com/graphcool/graphcool-json-schema/master/src/schema.json
+https://raw.githubusercontent.com/graphcool/prisma-json-schema/master/src/schema.json
 ```
 
 #### Import as file in Node
 
 ```js
-const schema = require('graphcool-json-schema/dist/schema.json')
+const schema = require('prisma-json-schema/dist/schema.json')
 ```
 
 #### Usage with VSCode
@@ -28,19 +29,18 @@ Add the following to your settings:
 ```json
 {
   "yaml.schemas": {
-    "https://raw.githubusercontent.com/graphcool/graphcool-json-schema/master/src/schema.json": "graphcool.yml"
+    "https://raw.githubusercontent.com/graphcool/prisma-json-schema/master/src/schema.json":
+      "prisma.yml"
   }
 }
 ```
 
-
 ### Typescript Definitions
 
 ```sh
-yarn add graphcool-json-schema
+yarn add prisma-json-schema
 ```
 
 ```ts
-import { GraphcoolDefinition } from 'graphcool-json-schema'
+import { PrismaDefinition } from 'prisma-json-schema'
 ```
-

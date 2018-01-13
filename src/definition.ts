@@ -1,4 +1,4 @@
-export interface GraphcoolDefinition {
+export interface PrismaDefinition {
   service: string
   datamodel: string | string[]
   schema?: string
