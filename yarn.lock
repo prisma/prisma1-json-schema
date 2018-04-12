@@ -6,11 +6,11 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-ajv-cli@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/ajv-cli/-/ajv-cli-2.1.0.tgz#26f942ddf4b1d14d3c639cb28db807f02ca3787c"
+ajv-cli@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ajv-cli/-/ajv-cli-3.0.0.tgz#5823231f64e2833054130690b18099609e980f29"
   dependencies:
-    ajv "^5.0.0"
+    ajv "^6.0.0"
     ajv-pack "^0.3.0"
     fast-json-patch "^0.5.6"
     glob "^7.0.3"
@@ -29,6 +29,14 @@ ajv@^5.0.0:
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.5.1.tgz#b38bb8876d9e86bee994956a04e721e88b248eb2"
   dependencies:
     co "^4.6.0"
+    fast-deep-equal "^1.0.0"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.3.0"
+
+ajv@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.0.1.tgz#2898580a9f3def5f9c85dfead7a2223ef13cf3da"
+  dependencies:
     fast-deep-equal "^1.0.0"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
