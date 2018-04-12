@@ -1,5 +1,5 @@
 export interface PrismaDefinition {
-  service: string
+  service?: string
   datamodel: string | string[]
   schema?: string
   subscriptions?: SubscriptionMap
@@ -8,7 +8,8 @@ export interface PrismaDefinition {
   disableAuth?: boolean
   seed?: Seed
   cluster?: string
-  stage: string
+  stage?: string
+  endpoint?: string
 }
 
 export interface Seed {
