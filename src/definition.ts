@@ -10,6 +10,7 @@ export interface PrismaDefinition {
   cluster?: string
   stage?: string
   endpoint?: string
+  hooks?: any
 }
 
 export interface Seed {
