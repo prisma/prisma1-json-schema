@@ -2,7 +2,7 @@
 
 JSON schema of prisma.yml files
 
-[![CircleCI](https://circleci.com/gh/graphcool/prisma-json-schema.svg?style=shield)](https://circleci.com/gh/graphcool/prisma-json-schema) [![npm version](https://badge.fury.io/js/prisma-json-schema.svg)](https://badge.fury.io/js/prisma-json-schema)
+[![CircleCI](https://circleci.com/gh/prisma/prisma-json-schema.svg?style=shield)](https://circleci.com/gh/prisma/prisma-json-schema) [![npm version](https://badge.fury.io/js/prisma-json-schema.svg)](https://badge.fury.io/js/prisma-json-schema)
 
 ## Usage
 
