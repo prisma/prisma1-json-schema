@@ -1,16 +1,18 @@
 export interface PrismaDefinition {
-  service?: string
   datamodel: string | string[]
-  schema?: string
   subscriptions?: SubscriptionMap
   custom?: any
   secret?: string
   disableAuth?: boolean
   seed?: Seed
-  cluster?: string
-  stage?: string
   endpoint?: string
   hooks?: any
+  generate?: Generate[]
+}
+
+export interface Generate {
+  generator: string
+  output: string
 }
 
 export interface Seed {
