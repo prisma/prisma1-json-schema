@@ -13,7 +13,7 @@ JSON schema of prisma.yml files
 You can use the following URL for the current JSON schema file:
 
 ```
-https://raw.githubusercontent.com/graphcool/prisma-json-schema/master/src/schema.json
+https://raw.githubusercontent.com/prisma/prisma-json-schema/master/src/schema.json
 ```
 
 #### Import as file in Node
@@ -29,7 +29,7 @@ Add the following to your settings:
 ```json
 {
   "yaml.schemas": {
-    "https://raw.githubusercontent.com/graphcool/prisma-json-schema/master/src/schema.json":
+    "https://raw.githubusercontent.com/prisma/prisma-json-schema/master/src/schema.json":
       "prisma.yml"
   }
 }
