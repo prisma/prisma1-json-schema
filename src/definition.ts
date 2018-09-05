@@ -8,6 +8,9 @@ export interface PrismaDefinition {
   endpoint?: string
   hooks?: any
   generate?: Generate[]
+  service: string // deprecated
+  cluster?: string // deprecated
+  stage: string // deprecated
 }
 
 export interface Generate {

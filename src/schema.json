@@ -33,6 +33,34 @@
     }
   },
   "properties": {
+    "service": {
+      "description": "Name of the Service. Deprecated. Please use `endpoint` to provide the service.",
+      "type": "string",
+      "items": {
+        "type": "string"
+      }
+    },
+    "schema": {
+      "description": "Path to schema.graphql for usage in the Gateway. Deprecated. Please use GraphQL Config to provide the schema",
+      "type": "string",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stage": {
+      "description": "Stage to deploy to. Read more here https://goo.gl/J5k76y. Deprecated. Please use `endpoint` to provide the stage.",
+      "type": "string",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cluster": {
+      "description": "Cluster used for deployment. Read more here https://goo.gl/J5k76y",
+      "type": "string",
+      "items": {
+        "type": "string"
+      }
+    },
     "datamodel": {
       "description": "Type definitions for database models, relations, enums and other types",
       "type": ["string", "array"],
