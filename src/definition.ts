@@ -1,5 +1,5 @@
 export interface PrismaDefinition {
-  datamodel: string | string[]
+  datamodel?: string | string[]
   subscriptions?: SubscriptionMap
   custom?: any
   secret?: string

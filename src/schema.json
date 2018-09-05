@@ -104,5 +104,5 @@
     }
   },
   "additionalProperties": false,
-  "required": ["endpoint"]
+  "required": []
 }
