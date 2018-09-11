@@ -44,3 +44,4 @@ yarn add prisma-json-schema
 ```ts
 import { PrismaDefinition } from 'prisma-json-schema'
 ```
+
