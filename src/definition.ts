@@ -16,7 +16,7 @@ export interface Generate {
 }
 
 export interface Seed {
-  ['import']?: string
+  import?: string
   run?: string
 }
 
