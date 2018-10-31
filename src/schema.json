@@ -101,6 +101,10 @@
       "items": {
         "type": "string"
       }
+    },
+    "databaseType": {
+      "type": "string",
+      "oneOf": [{ "enum": ["relational", "document"] }]
     }
   },
   "additionalProperties": false

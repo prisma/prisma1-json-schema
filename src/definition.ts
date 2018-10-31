@@ -8,7 +8,10 @@ export interface PrismaDefinition {
   endpoint?: string
   hooks?: any
   generate?: Generate[]
+  databaseType?: DatabaseType
 }
+
+export type DatabaseType = 'relational' | 'document'
 
 export interface Generate {
   generator: string
