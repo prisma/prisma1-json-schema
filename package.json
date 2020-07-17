@@ -8,10 +8,10 @@
   ],
   "scripts": {
     "prepare": "npm run build",
-    "build": "rm -rf dist && tsc -d; cp src/schema.json dist",
+    "build": "rm -rf dist && tsc -d && cp src/schema.json dist",
     "test": "npm run build",
-    "simple": "ajv -s src/schema.json -d simple.json",
-    "advanced": "ajv -s src/schema.json -d advanced.json"
+    "simple": "ajv -s src/schema.json -d examples/simple.json",
+    "advanced": "ajv -s src/schema.json -d examples/advanced.json"
   },
   "devDependencies": {
     "ajv-cli": "3.0.0",
